@@ -4,6 +4,9 @@
       "carousel#home",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "image#promo",
+      "flex-layout.row#deals",
+      "flex-layout.row#deals2",
       "shelf#home",
       "info-card#home",
       "rich-text#question",
@@ -28,6 +31,105 @@
       "height": 720,
       "showArrows": true,
       "showDots": true
+    }
+  },
+
+  "image#promo":{
+    "props":{
+      "src": "https://niazi.vteximg.com.br/arquivos/promoNiazi.png",
+      "blockClass": "promoImage"
+    }
+  },
+
+  // ROW BANNER DEALS 1
+  "flex-layout.row#deals":{
+    "children":[
+      "flex-layout.col#space",
+      "flex-layout.col#dealsCol1",
+      "flex-layout.col#dealsCol2",
+      "flex-layout.col#space"
+    ],
+    "props":{
+
+    }
+  },
+
+  "flex-layout.col#space":{
+    "props":{
+      "width": "10%"
+    }
+  },
+  "flex-layout.col#dealsCol1":{
+    "children":[
+      "image#Eletro"
+    ],
+    "props":{
+      "width": "45%"
+    }
+  },
+  "flex-layout.col#dealsCol2":{
+    "children":[
+      "image#Servir"
+    ],
+    "props":{
+      "width": "35%"
+    }
+  },
+  "image#Eletro":{
+    "props":{
+      "src": "https://niazi.vteximg.com.br/arquivos/1Eletro.jpg",
+      "maxHeight": "290px"
+    }
+  },
+  "image#Servir":{
+    "props":{
+      "src": "https://niazi.vteximg.com.br/arquivos/2Servir.jpg",
+      "maxHeight": "290px",
+      "blockClass": "lastColImage"
+    }
+  },
+
+
+  //ROW BANNER DEALS 2
+  "flex-layout.row#deals2":{
+    "children":[
+      "flex-layout.col#space",
+      "flex-layout.col#dealsCol3",
+      "flex-layout.col#dealsCol4",
+      "flex-layout.col#space"
+    ],
+    "props":{
+
+    }
+  },
+
+  "flex-layout.col#dealsCol3":{
+    "children":[
+      "image#Infantil"
+    ],
+    "props":{
+      "width": "25%"
+    }
+  },
+  "flex-layout.col#dealsCol4":{
+    "children":[
+      "image#Belga"
+    ],
+    "props":{
+      "width": "55%"
+    }
+  },
+  "image#Infantil":{
+    "props":{
+      "src": "https://niazi.vteximg.com.br/arquivos/3Linhas.jpg",
+      "maxHeight": "280px"
+    }
+  },
+  "image#Belga":{
+    "props":{
+      "src": "https://niazi.vteximg.com.br/arquivos/4Tapetes.jpg",
+      "maxHeight": "280px",
+      "blockClass": "lastColImage"
     }
   },
 

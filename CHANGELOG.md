@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.0.1] - 2019-09-21
+
 ## [3.15.0] - 2019-09-18
 ### Added
 - Add sitemap builder with about-us url

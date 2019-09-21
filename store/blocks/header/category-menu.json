@@ -4,7 +4,10 @@
       "menu-item#category-clothing",
       "menu-item#category-decoration",
       "menu-item#custom-sale"
-    ]
+    ],
+    "props":{
+      "blockClass":"mainMenu"
+    }
   },
   "menu-item#category-clothing": {
     "props": {

@@ -217,5 +217,10 @@
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
     }
+  },
+  "newsletter": {
+    "props": {
+      "label": "Cadastre-se e receba nossas ofertas!"
+    }
   }
 }

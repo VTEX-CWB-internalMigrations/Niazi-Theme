@@ -44,6 +44,8 @@
   border-bottom: 2px solid #fff;
   display: flex;
   color: #fff;
+  width: 500px;
+  display: inline-block;
 }
 
 .inputGroup input {
@@ -59,7 +61,6 @@
 }
 
 .inputGroup button {
-  background-color: transparent;
   color: #fff;
   border: none;
   margin-right: -24px;
@@ -108,7 +109,7 @@
     font-size: 31px;
   }
 
-  /* NEWSLETTER*/
+  /* NEWSLETTER */
   .newsletter .container{
     padding: 10px;
   }
@@ -123,5 +124,36 @@
     font-size: 25px;
     display: inline-block;
   }
+
+  .newsletter form .inputGroup{
+    width: 500px;
+    display: inline-block;
+    padding-top: 4px;
+    border-bottom: 0px;
+  }
+
+  .newsletter form .inputGroup label{
+    width: 50%;
+    display: inline-block;
+
+  }
+
+  .newsletter form .inputGroup input{
+    background: #fff;
+    border-radius: 0px;
+    padding: 5px;
+    color: #000;
+  }
+
+  .newsletter form .inputGroup input::placeholder{
+    color: #A9A9A9;
+  }
+
+  .newsletter form .inputGroup .buttonContainer{
+    display: inline-block;
+  }
+
+
+
 
 }

@@ -88,11 +88,32 @@
     padding: 0px 5px;
   }
 
-  .container--institutionalLink .paragraph{
+  .container--institutionalLink .paragraph , .container--institutionalLink .link{
     margin: 5px 0px 0px 0px;
     font-size: 14px;
     font-weight: 600;
     color: #757575;
     padding: 0px 5px;
+  }
+
+  .container--footerInfo{
+    position: relative;
+    height: 100px;
+    display: block;
+  }
+  
+  .container--footerInfo .paragraph{
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    color: #ccc !important;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .container--footerInfo .link{
+    color: #ccc !important;
+    text-decoration: none;
   }
 }

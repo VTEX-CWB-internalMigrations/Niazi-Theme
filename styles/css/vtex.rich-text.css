@@ -100,6 +100,7 @@
     position: relative;
     height: 100px;
     display: block;
+    margin-top: 40px;
   }
   
   .container--footerInfo .paragraph{
@@ -116,4 +117,9 @@
     color: #ccc !important;
     text-decoration: none;
   }
+
+  .container--encrypt .paragraph{
+    margin: 0px;
+  }
+  
 }

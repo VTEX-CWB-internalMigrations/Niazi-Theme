@@ -110,7 +110,8 @@
   },
   "rich-text#securityImages": {
     "props": {
-      "text": "oi"
+      "text": "oi",
+      "blockClass": "encrypt"
     }
   },
   "flex-layout.col#footer-3-col-desktop": {

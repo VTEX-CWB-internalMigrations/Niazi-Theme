@@ -132,12 +132,14 @@
   .container--faqButton .paragraph ,   .container--faqButton .link{
     font-size: 0px;
     color: #e28c00;
+    text-align: center;
     font-weight: 600;
   }
 
-  .container--faqButton:hover .paragraph{
+  .container--faqButton:hover .paragraph , .container--faqButton:hover .link{
     font-size: 12px;
     transition: 1s;
+    text-decoration: none;
   }
 
 }

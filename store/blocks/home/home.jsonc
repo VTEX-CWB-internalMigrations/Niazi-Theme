@@ -31,12 +31,14 @@
       ],
       "height": 720,
       "showArrows": false,
-      "showDots": true
+      "showDots": true,
+      "blockClass": "mainCarousel"
     }
   },
   "image#promo": {
     "props": {
       "src": "https://niazi.vteximg.com.br/arquivos/promoNiazi.png",
+      "maxWidth": "1200px",
       "blockClass": "promoImage"
     }
   },
@@ -48,7 +50,9 @@
       "flex-layout.col#dealsCol2",
       "flex-layout.col#space"
     ],
-    "props": {}
+    "props": {
+      "blockClass": "rowDeals"
+    }
   },
   "flex-layout.col#space": {
     "props": {
@@ -73,14 +77,14 @@
   },
   "image#Eletro": {
     "props": {
-      "src": "https://niazi.vteximg.com.br/arquivos/1Eletro.jpg",
-      "maxHeight": "290px"
+      "src": "https://niazi.vteximg.com.br/arquivos/1Eletro.jpg"
+      //"maxHeight": "290px"
     }
   },
   "image#Servir": {
     "props": {
       "src": "https://niazi.vteximg.com.br/arquivos/2Servir.jpg",
-      "maxHeight": "290px",
+      //"maxHeight": "290px",
       "blockClass": "lastColImage"
     }
   },
@@ -92,7 +96,9 @@
       "flex-layout.col#dealsCol4",
       "flex-layout.col#space"
     ],
-    "props": {}
+    "props": {
+      "blockClass": "rowDeals"
+    }
   },
   "flex-layout.col#dealsCol3": {
     "children": [
@@ -112,14 +118,14 @@
   },
   "image#Infantil": {
     "props": {
-      "src": "https://niazi.vteximg.com.br/arquivos/3Linhas.jpg",
-      "maxHeight": "280px"
+      "src": "https://niazi.vteximg.com.br/arquivos/3Linhas.jpg"
+      //"maxHeight": "280px"
     }
   },
   "image#Belga": {
     "props": {
       "src": "https://niazi.vteximg.com.br/arquivos/4Tapetes.jpg",
-      "maxHeight": "280px",
+      //"maxHeight": "280px",
       "blockClass": "lastColImage"
     }
   },

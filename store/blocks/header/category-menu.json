@@ -5,8 +5,8 @@
       "menu-item#category-decoration",
       "menu-item#custom-sale"
     ],
-    "props":{
-      "blockClass":"mainMenu"
+    "props": {
+      "blockClass": "mainMenu"
     }
   },
   "menu-item#category-clothing": {
@@ -131,6 +131,11 @@
       "vtex.menu@2.x:menu#custom-sale",
       "info-card#home"
     ]
+  },
+  "info-card#home": {
+    "props": {
+      "text": "top"
+    }
   },
   "vtex.menu@2.x:menu#custom-sale": {
     "props": {

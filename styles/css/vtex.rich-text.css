@@ -121,5 +121,23 @@
   .container--encrypt .paragraph{
     margin: 0px;
   }
-  
+
+  .container--faqButton {
+    position: fixed;
+    right: 0px;
+    top: 25%;
+    z-index: 9999;
+  }
+
+  .container--faqButton .paragraph ,   .container--faqButton .link{
+    font-size: 0px;
+    color: #e28c00;
+    font-weight: 600;
+  }
+
+  .container--faqButton:hover .paragraph{
+    font-size: 12px;
+    transition: 1s;
+  }
+
 }

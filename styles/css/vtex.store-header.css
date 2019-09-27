@@ -13,3 +13,7 @@
   padding: 10px 0px;
   background-color: #F0F0F0;
 }
+
+.headerRow--main-menu{
+  border-bottom: 2px solid #d1d1d1;
+}

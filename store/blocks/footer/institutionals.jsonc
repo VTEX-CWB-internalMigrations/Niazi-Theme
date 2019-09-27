@@ -37,19 +37,19 @@
   },
   "rich-text#aboutUs": {
     "props": {
-      "text": "Quem Somos?",
+      "text": "[Quem Somos?](https://niazi.myvtex.com/quem-somos)",
       "blockClass": "institutionalLink"
     }
   },
   "rich-text#condition": {
     "props": {
-      "text": "Condições de Compra & Venda",
+      "text": "[Condições de Compra & Venda](https://niazi.myvtex.com/compravendacondicoes)",
       "blockClass": "institutionalLink"
     }
   },
   "rich-text#regret": {
     "props": {
-      "text": "Arrependimento de Compra",
+      "text": "[Arrependimento de Compra](https://niazi.myvtex.com/arrependimentodecompra)",
       "blockClass": "institutionalLink"
     }
   },
@@ -61,7 +61,7 @@
   },
   "rich-text#curtains": {
     "props": {
-      "text": "Cortinas e Persianas Sob Medida",
+      "text": "[Cortinas e Persianas Sob Medida](https://niazi.myvtex.com/cortinasobmedida)",
       "blockClass": "institutionalLink"
     }
   },
@@ -84,25 +84,25 @@
   },
   "rich-text#privacy": {
     "props": {
-      "text": "Política Privacidade",
+      "text": "[Política Privacidade](https://niazi.myvtex.com/politicadeprivacidade)",
       "blockClass": "institutionalLink"
     }
   },
   "rich-text#exchange": {
     "props": {
-      "text": "Política de Trocas",
+      "text": "[Política de Trocas](https://niazi.myvtex.com/politicadetrocas)",
       "blockClass": "institutionalLink"
     }
   },
   "rich-text#cancelling": {
     "props": {
-      "text": "Cancelamento de Compras",
+      "text": "[Cancelamento de Compras](https://niazi.myvtex.com/cancelamentodecompras)",
       "blockClass": "institutionalLink"
     }
   },
   "rich-text#mdf": {
     "props": {
-      "text": "MDF na 25 de Março",
+      "text": "[MDF na 25 de Março](https://niazi.myvtex.com/mdf25demarco)",
       "blockClass": "institutionalLink"
     }
   },

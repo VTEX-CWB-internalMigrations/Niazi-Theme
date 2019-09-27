@@ -225,61 +225,61 @@
   },
   "rich-text#01": {
     "props": {
-      "text": "[![MeuTexto](https://niazi.vteximg.com.br/arquivos/001Brinox.png 'topmaster')](http://niazi.myvtex.com.br/)",
+      "text": "[![Brinox](https://niazi.vteximg.com.br/arquivos/001Brinox.png 'Brinox')](http://niazi.myvtex.com.br/)",
       "blockClass": "brandSliderItem"
     }
   },
   "rich-text#02": {
     "props": {
-      "text": "[![MeuTexto](https://niazi.vteximg.com.br/arquivos/002Bella.png 'topmaster')](http://niazi.myvtex.com.br/)",
+      "text": "[![Bella](https://niazi.vteximg.com.br/arquivos/002Bella.png 'Bella')](http://niazi.myvtex.com.br/)",
       "blockClass": "brandSliderItem"
     }
   },
   "rich-text#03": {
     "props": {
-      "text": "[![MeuTexto](https://niazi.vteximg.com.br/arquivos/003Dohler.png 'topmaster')](http://niazi.myvtex.com.br/)",
+      "text": "[![Dohler](https://niazi.vteximg.com.br/arquivos/003Dohler.png 'Dohler')](http://niazi.myvtex.com.br/)",
       "blockClass": "brandSliderItem"
     }
   },
   "rich-text#04": {
     "props": {
-      "text": "[![MeuTexto](https://niazi.vteximg.com.br/arquivos/004Karsten.png 'topmaster')](http://niazi.myvtex.com.br/)",
+      "text": "[![Karsten](https://niazi.vteximg.com.br/arquivos/004Karsten.png 'Karsten')](http://niazi.myvtex.com.br/)",
       "blockClass": "brandSliderItem"
     }
   },
   "rich-text#05": {
     "props": {
-      "text": "[![MeuTexto](https://niazi.vteximg.com.br/arquivos/005Multiflon.png 'topmaster')](http://niazi.myvtex.com.br/)",
+      "text": "[![Multiflon](https://niazi.vteximg.com.br/arquivos/005Multiflon.png 'Multiflon')](http://niazi.myvtex.com.br/)",
       "blockClass": "brandSliderItem"
     }
   },
   "rich-text#06": {
     "props": {
-      "text": "[![MeuTexto](https://niazi.vteximg.com.br/arquivos/006Niazitex.png 'topmaster')](http://niazi.myvtex.com.br/)",
+      "text": "[![Niazitex](https://niazi.vteximg.com.br/arquivos/006Niazitex.png 'Niazitex')](http://niazi.myvtex.com.br/)",
       "blockClass": "brandSliderItem"
     }
   },
   "rich-text#07": {
     "props": {
-      "text": "[![MeuTexto](https://niazi.vteximg.com.br/arquivos/007Oxford.png 'topmaster')](http://niazi.myvtex.com.br/)",
+      "text": "[![Oxford](https://niazi.vteximg.com.br/arquivos/07Oxford.png 'Oxford')](http://niazi.myvtex.com.br/)",
       "blockClass": "brandSliderItem"
     }
   },
   "rich-text#08": {
     "props": {
-      "text": "[![MeuTexto](https://niazi.vteximg.com.br/arquivos/008Santista.png 'topmaster')](http://niazi.myvtex.com.br/)",
+      "text": "[![Santista](https://niazi.vteximg.com.br/arquivos/08Santista.png 'Santista')](http://niazi.myvtex.com.br/)",
       "blockClass": "brandSliderItem"
     }
   },
   "rich-text#09": {
     "props": {
-      "text": "[![MeuTexto](https://niazi.vteximg.com.br/arquivos/009Tramontina.png 'topmaster')](http://niazi.myvtex.com.br/)",
+      "text": "[![Tramontina](https://niazi.vteximg.com.br/arquivos/09Tramontina.png 'Tramontina')](http://niazi.myvtex.com.br/)",
       "blockClass": "brandSliderItem"
     }
   },
   "rich-text#10": {
     "props": {
-      "text": "[![MeuTexto](https://niazi.vteximg.com.br/arquivos/010Mondial.png 'topmaster')](http://niazi.myvtex.com.br/)",
+      "text": "[![Mondial](https://niazi.vteximg.com.br/arquivos/10Mondial.png 'Mondial')](http://niazi.myvtex.com.br/)",
       "blockClass": "brandSliderItem"
     }
   },

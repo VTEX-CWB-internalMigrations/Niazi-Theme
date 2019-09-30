@@ -38,7 +38,6 @@
       "width": "100"
     }
   },
-
   "minicart": {
     "blocks": [
       "product-summary"
@@ -56,7 +55,6 @@
       "labelClasses": "gray"
     }
   },
-
   "header-row#2-desktop": {
     "children": [
       "vtex.menu@2.x:menu#category-menu"
@@ -65,10 +63,10 @@
       "blockClass": "main-menu"
     }
   },
-
   "header-layout.mobile": {
     "children": [
-      "header-row#1-mobile"
+      "header-row#1-mobile",
+      "header-row#2mobile"
     ]
   },
   "header-row#1-mobile": {
@@ -84,12 +82,17 @@
       "blockClass": "main-header-mobile"
     }
   },
+  "header-row#2mobile": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {}
+  },
   "drawer": {
     "children": [
       "menu#drawer"
     ]
   },
-
   "menu#drawer": {
     "children": [
       "menu-item#category-clothing",
@@ -100,16 +103,10 @@
       "orientation": "vertical"
     }
   },
-
-  "login":{
-    "children":[
-
-    ],
-    "props":{
-
-    }
+  "login": {
+    "children": [],
+    "props": {}
   },
-
   "logo#mobile": {
     "props": {
       "title": "Logo",

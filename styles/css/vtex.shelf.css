@@ -22,3 +22,9 @@
     display: block;
     margin: 0px 15px;
 }
+
+@media only screen and (max-width: 640px) {
+    .title{
+        font-size: 25px;  
+    }
+}

@@ -73,6 +73,10 @@
   height: 300px;
 }
 
+.container--faqButton {
+  display: none;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

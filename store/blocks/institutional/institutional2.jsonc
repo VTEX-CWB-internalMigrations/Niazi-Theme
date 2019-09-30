@@ -90,7 +90,8 @@
     },
     "rich-text#storeImage": {
         "props": {
-            "text": "SEU TEXTO AQUI"
+            "text": "SEU TEXTO AQUI",
+            "blockClass": "storeImage"
         }
     }
 }

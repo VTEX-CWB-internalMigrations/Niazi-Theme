@@ -75,6 +75,18 @@
   display: none;
 }
 
+.sellingPrice{
+  font-weight: 400;
+  color: #cf872e;
+  font-family: Impact;
+  font-size: 31px;
+}
+
+.listPriceLabel , .listPriceValue{
+  color: #AE0F0F;
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 640px) {
   .label {
     font-size: 40px;
@@ -105,13 +117,6 @@
   .imageElement{
     width: 99%;
     height: 99%;
-  }
-
-  .sellingPrice{
-    font-weight: 400;
-    color: #cf872e;
-    font-family: Impact;
-    font-size: 31px;
   }
 
   /* NEWSLETTER */

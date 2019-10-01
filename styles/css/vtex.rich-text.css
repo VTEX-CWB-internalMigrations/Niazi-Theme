@@ -77,6 +77,44 @@
   display: none;
 }
 
+.container--footerInfo .paragraph{
+  width: 100%;
+  text-align: center;
+  display: block;
+  position: absolute;
+  color: #ccc !important;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.container--footerInfo .link{
+  color: #ccc !important;
+  text-decoration: none;
+}
+
+.container--InstitutionalTitle .paragraph{
+  color: #9a723b;
+  margin-bottom: 15px;
+  font-family: "Arial MT";
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+  padding: 0px 5px;
+}
+
+.container--institutionalLink .paragraph , .container--institutionalLink .link{
+  margin: 5px 0px 0px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #757575;
+  text-decoration: none;
+}
+
+.container--institutionalLink .paragraph{
+  padding: 0px 5px;
+}
+
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -98,45 +136,11 @@
     line-height: 1.3em;
   }
 
-  .container--InstitutionalTitle .paragraph{
-    color: #9a723b;
-    margin-bottom: 15px;
-    font-family: "Arial MT";
-    font-size: 16px;
-    font-weight: bold;
-    margin: 0 0 15px 0;
-    padding: 0px 5px;
-  }
-
-  .container--institutionalLink .paragraph , .container--institutionalLink .link{
-    margin: 5px 0px 0px 0px;
-    font-size: 14px;
-    font-weight: 600;
-    color: #757575;
-    padding: 0px 5px;
-    text-decoration: none;
-  }
-
   .container--footerInfo{
     position: relative;
     height: 100px;
     display: block;
     margin-top: 40px;
-  }
-  
-  .container--footerInfo .paragraph{
-    width: 100%;
-    text-align: center;
-    display: block;
-    position: absolute;
-    color: #ccc !important;
-    font-size: 17px;
-    font-weight: bold;
-  }
-
-  .container--footerInfo .link{
-    color: #ccc !important;
-    text-decoration: none;
   }
 
   .container--encrypt .paragraph{

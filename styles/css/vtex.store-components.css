@@ -87,6 +87,26 @@
   font-weight: bold;
 }
 
+.newsletter .container{
+  padding: 20px;
+}
+
+.newsletter .label{
+  font-size: 17px;
+}
+
+.newsletter .inputGroup{
+  border-bottom: 0px
+}
+
+.newsletter .inputGroup .buttonContainer{
+  padding-top: 10px;
+}
+
+.newsletter .confirmationText , .newsletter .confirmationTitle{
+  color: #fff;
+}
+
 @media only screen and (min-width: 640px) {
   .label {
     font-size: 40px;

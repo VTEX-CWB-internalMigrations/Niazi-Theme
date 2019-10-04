@@ -107,6 +107,10 @@
   color: #fff;
 }
 
+.figure{
+  padding: 10px;
+}
+
 @media only screen and (min-width: 640px) {
   .label {
     font-size: 40px;
@@ -187,4 +191,25 @@
     max-width: 265px;
   }
 
+  .productDescriptionContainer :global(.t-heading-5){
+    background: #b3b3b3;
+    color: #fff;
+    padding: 15px;
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 5px;
+  }
+
+  :global(.flexCol--productInfo) .productNameContainer{
+    background: #b3b3b3;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .productDescriptionContainer :global(.c-muted-1){
+    margin: 10px auto;
+    width: 80%;
+  }
 }

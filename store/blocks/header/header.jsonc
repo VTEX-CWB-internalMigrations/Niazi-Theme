@@ -120,7 +120,7 @@
   "category-menu": {
     "props": {
       "showAllDepartments": true,
-      "menuDisposition": "left"
+      "menuPosition": "left"
     }
   }
 }

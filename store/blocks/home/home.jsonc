@@ -140,7 +140,7 @@
       "productList": {
         "maxItems": 20,
         "itemsPerPage": 4,
-        "minItemsPerPage": 1.5,
+        "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "Top sellers"
@@ -158,7 +158,7 @@
       "productList": {
         "maxItems": 20,
         "itemsPerPage": 4,
-        "minItemsPerPage": 1.5,
+        "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "PRODUTOS QUE SÃO SUCESSO DE VENDAS"
@@ -176,7 +176,7 @@
       "productList": {
         "maxItems": 20,
         "itemsPerPage": 4,
-        "minItemsPerPage": 1.5,
+        "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "DESTAQUES"
@@ -194,7 +194,7 @@
       "productList": {
         "maxItems": 20,
         "itemsPerPage": 4,
-        "minItemsPerPage": 1.5,
+        "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "TAPETES"

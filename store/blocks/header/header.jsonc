@@ -91,7 +91,7 @@
   },
   "drawer": {
     "children": [
-      "category-menu"
+      "category-menu#mobile"
       //"menu#drawer"
     ]
   },
@@ -121,6 +121,11 @@
     "props": {
       "showAllDepartments": true,
       "menuPosition": "left"
+    }
+  },
+  "category-menu#mobile": {
+    "props": {
+      "showAllDepartments": false
     }
   }
 }

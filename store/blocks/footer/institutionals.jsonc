@@ -77,8 +77,7 @@
       "rich-text#exchange",
       "rich-text#cancelling",
       "rich-text#mdf",
-      "rich-text#didntFind",
-      "rich-text#doubts"
+      "rich-text#didntFind"
     ],
     "props": {}
   },

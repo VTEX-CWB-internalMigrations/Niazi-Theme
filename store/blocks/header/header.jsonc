@@ -119,7 +119,8 @@
   },
   "category-menu": {
     "props": {
-      "showAllDepartments": true
+      "showAllDepartments": true,
+      "menuDisposition": "left"
     }
   }
 }

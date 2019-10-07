@@ -44,6 +44,7 @@
     .container{
         height: 50px;
         overflow: hidden;
+        z-index: 99;
     }
 
     .itemContainer .secondLevelLink{

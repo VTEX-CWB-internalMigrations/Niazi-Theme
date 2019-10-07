@@ -212,4 +212,18 @@
     margin: 10px auto;
     width: 80%;
   }
+
+  .shippingContainer :global(.vtex-address-form__postalCode){
+    width: 300px;
+    display: inline-block;
+  }
+
+  .shippingContainer :global(.vtex-button){
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-top: 22px;
+    width: 200px;
+    font-size: 12px;
+  }
 }

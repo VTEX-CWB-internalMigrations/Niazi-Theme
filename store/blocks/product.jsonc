@@ -75,6 +75,11 @@
       "shipping-simulator"
     ]
   },
+  "sku-selector": {
+    "props": {
+      "hideImpossibleCombinations": false
+    }
+  },
   "product-name#productPage": {
     "props": {
       "blockClass": "productPage"

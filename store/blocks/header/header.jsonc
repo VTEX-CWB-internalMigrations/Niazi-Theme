@@ -57,8 +57,8 @@
   },
   "header-row#2-desktop": {
     "children": [
-      "category-menu"
-      //"vtex.menu@2.x:menu#category-menu"
+      //"category-menu"
+      "vtex.menu@2.x:menu#category-menu"
     ],
     "props": {
       "blockClass": "main-menu"

@@ -1,0 +1,1274 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#all",
+      "menu-item#carpet",
+      "menu-item#ud",
+      "menu-item#bed",
+      "menu-item#table",
+      "menu-item#decoration",
+      "menu-item#toys",
+      "menu-item#christmas"
+    ],
+    "props": {
+      "blockClass": "mainMenu"
+    }
+  },
+  // ----------------- ALL ITEM -------------------
+  "menu-item#all": {
+    "props": {
+      "id": "menu-item-category-all",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Todos os Departamentos",
+        "text": "VER TUDO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#all-submenu-block"
+    ]
+  },
+  "vtex.menu@2.x:submenu#all-submenu-block": {
+    "children": [
+      "vtex.menu@2.x:menu#all-submenu"
+    ],
+    "props": {
+      "blockClass": "allSubmenuBlock"
+    }
+  },
+  "vtex.menu@2.x:menu#all-submenu": {
+    "children": [
+      //FIRST COL
+      "menu-item#allCarpet",
+      "menu-item#allUd",
+      "menu-item#AllBed",
+      "menu-item#allTable",
+      //SECOND COL
+      "menu-item#allBath",
+      "menu-item#allDecoration",
+      "menu-item#allToys",
+      "menu-item#allChristmas",
+      "menu-item#allFabrics",
+      // THIRD COL
+      "menu-item#allHandicraft",
+      "menu-item#allFashion",
+      "menu-item#allPetshop",
+      "menu-item#allHospitality",
+      "menu-item#allBags",
+      // FOURTH COL
+      "menu-item#allBaby",
+      "menu-item#allKits",
+      "menu-item#allHall"
+    ],
+    "props": {
+      "blockClass": "allSubmenu",
+      "orientation": "vertical"
+    }
+  },
+  // FIRST COL ORGANIZATION
+  "menu-item#allCarpet": {
+    "props": {
+      "id": "menu-item-category-all-carpet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tapetes",
+        "text": "TAPETES"
+      }
+    }
+  },
+  "menu-item#allUd": {
+    "props": {
+      "id": "menu-item-category-all-carpet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "UD",
+        "text": "UD"
+      }
+    }
+  },
+  "menu-item#AllBed": {
+    "props": {
+      "id": "menu-item-category-all-bed",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Bed",
+        "text": "BED"
+      }
+    }
+  },
+  "menu-item#allTable": {
+    "props": {
+      "id": "menu-item-category-all-mesas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Mesas",
+        "text": "MESAS"
+      }
+    }
+  },
+  // SECOND COL ORGANIZATION
+  "menu-item#allBath": {
+    "props": {
+      "id": "menu-item-category-all-bath",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Banho",
+        "text": "BANHO"
+      }
+    }
+  },
+  "menu-item#allDecoration": {
+    "props": {
+      "id": "menu-item-category-all-decoration",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Decoration",
+        "text": "DECORATION"
+      }
+    }
+  },
+  "menu-item#allToys": {
+    "props": {
+      "id": "menu-item-category-all-toys",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Brinquedos",
+        "text": "BRINQUEDOS"
+      }
+    }
+  },
+  "menu-item#allChristmas": {
+    "props": {
+      "id": "menu-item-category-all-christmas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Natal",
+        "text": "NATAL"
+      }
+    }
+  },
+  "menu-item#allFabrics": {
+    "props": {
+      "id": "menu-item-category-all-fabrics",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tecidos",
+        "text": "TECIDOS"
+      }
+    }
+  },
+  // THIRD COL ORGANIZATION
+  "menu-item#allHandicraft": {
+    "props": {
+      "id": "menu-item-category-all-handicraft",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Artesanato",
+        "text": "ARTESANATO"
+      }
+    }
+  },
+  "menu-item#allFashion": {
+    "props": {
+      "id": "menu-item-category-all-fashion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Fashion",
+        "text": "FASHION"
+      }
+    }
+  },
+  "menu-item#allPetshop": {
+    "props": {
+      "id": "menu-item-category-all-petshop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Petshop",
+        "text": "PETSHOP"
+      }
+    }
+  },
+  "menu-item#allHospitality": {
+    "props": {
+      "id": "menu-item-category-all-hospitality",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Hotelaria",
+        "text": "HOTELARIA"
+      }
+    }
+  },
+  "menu-item#allBags": {
+    "props": {
+      "id": "menu-item-category-all-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Malas",
+        "text": "MALAS E ORGANIZADORES"
+      }
+    }
+  },
+  // FOURTH COL ORGANIZATION
+  "menu-item#allBaby": {
+    "props": {
+      "id": "menu-item-category-all-baby",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Baby",
+        "text": "LINHA BABY"
+      }
+    }
+  },
+  "menu-item#allKits": {
+    "props": {
+      "id": "menu-item-category-all-fashion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Kits",
+        "text": "KITS E CONJUNTOS"
+      }
+    }
+  },
+  "menu-item#allHall": {
+    "props": {
+      "id": "menu-item-category-all-hall",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Saldão de Tapetes",
+        "text": "SALDÃO DE TAPETES"
+      }
+    }
+  },
+  // ------------ CARPET ITEM -----------------
+  "menu-item#carpet": {
+    "props": {
+      "id": "menu-item-category-carpet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tapetes",
+        "text": "TAPETES"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#carpet-submenu-block"
+    ]
+  },
+  "vtex.menu@2.x:submenu#carpet-submenu-block": {
+    "children": [
+      "vtex.menu@2.x:menu#carpet-submenu",
+      "image#carpetImg"
+    ]
+  },
+  "image#carpetImg": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/tapetes-menu-image.png",
+      "alt": "Imagem de redirecionamento para página de tapetes",
+      "link": "/",
+      "blockClass": "menuImage"
+    }
+  },
+  "vtex.menu@2.x:menu#carpet-submenu": {
+    "children": [
+      //FIRST BREAK
+      "menu-item#carpetExtern",
+      "menu-item#carpetBathroom",
+      "menu-item#carpetBedroom",
+      "menu-item#carpetKitchen",
+      //SECOND BREAK
+      "menu-item#carpetDoor",
+      "menu-item#carpetChild",
+      "menu-item#carpetPvc",
+      "menu-item#carpetChristmas",
+      "menu-item#carpetPet",
+      // THIRD BREAK
+      "menu-item#carpetDoormat",
+      "menu-item#carpetAcessories",
+      "menu-item#carpetCrosswalk"
+    ],
+    "props": {
+      "blockClass": "carpetSubmenu",
+      "orientation": "vertical"
+    }
+  },
+  // FIRST BREAK
+  "menu-item#carpetExtern": {
+    "props": {
+      "id": "menu-item-category-carpet-extern",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tapetes para ambiente externo",
+        "text": "Tapetes para Ambiente Externo"
+      }
+    }
+  },
+  "menu-item#carpetBathroom": {
+    "props": {
+      "id": "menu-item-category-carpet-bathroom",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tapetes para Banheiro",
+        "text": "Tapetes para Banheiro"
+      }
+    }
+  },
+  "menu-item#carpetBedroom": {
+    "props": {
+      "id": "menu-item-category-carpet-bedroom",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tapetes para Sala/Quarto",
+        "text": "Tapetes para Sala/Quarto"
+      }
+    }
+  },
+  "menu-item#carpetKitchen": {
+    "props": {
+      "id": "menu-item-category-carpet-kitchen",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tapetes para Cozinha",
+        "text": "Tapetes para Cozinha"
+      }
+    }
+  },
+  //SECOND BREAK
+  "menu-item#carpetDoor": {
+    "props": {
+      "id": "menu-item-category-carpet-door",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tapetes para Porta",
+        "text": "Tapetes para Porta"
+      }
+    }
+  },
+  "menu-item#carpetChild": {
+    "props": {
+      "id": "menu-item-category-carpet-child",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tapete Infantil",
+        "text": "Tapete Infantil"
+      }
+    }
+  },
+  "menu-item#carpetPvc": {
+    "props": {
+      "id": "menu-item-category-carpet-pvc",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tapete de PVC",
+        "text": "Tapetes de PVC"
+      }
+    }
+  },
+  "menu-item#carpetChristmas": {
+    "props": {
+      "id": "menu-item-category-carpet-christmas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tapete de Natal",
+        "text": "Tapete de Natal"
+      }
+    }
+  },
+  "menu-item#carpetPet": {
+    "props": {
+      "id": "menu-item-category-carpet-pet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tapete PET",
+        "text": "Tapete PET"
+      }
+    }
+  },
+  // THIRD BREAK
+  "menu-item#carpetDoormat": {
+    "props": {
+      "id": "menu-item-category-carpet-doormat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Capachos",
+        "text": "Capachos"
+      }
+    }
+  },
+  "menu-item#carpetAcessories": {
+    "props": {
+      "id": "menu-item-category-carpet-acessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Acessórios para Tapetes",
+        "text": "Acessórios para Tapetes"
+      }
+    }
+  },
+  "menu-item#carpetCrosswalk": {
+    "props": {
+      "id": "menu-item-category-carpet-crosswalk",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Passadeiras",
+        "text": "Passadeiras"
+      }
+    }
+  },
+  // --------------------- UD ITEM --------------------------
+  "menu-item#ud": {
+    "props": {
+      "id": "menu-item-category-ud",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "UD",
+        "text": "UD"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#ud-submenu-block"
+    ]
+  },
+  "vtex.menu@2.x:submenu#ud-submenu-block": {
+    "children": [
+      "vtex.menu@2.x:menu#ud-submenu",
+      "image#udImg"
+    ]
+  },
+  "image#udImg": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/ud-menu-image.jpg",
+      "alt": "Imagem de redirecionamento para página de UD",
+      "link": "/",
+      "blockClass": "menuImage"
+    }
+  },
+  "vtex.menu@2.x:menu#ud-submenu": {
+    "children": [
+      //FIRST BREAK
+      "menu-item#udCook",
+      "menu-item#udPrepare",
+      "menu-item#udServe",
+      "menu-item#udKeep",
+      //SECOND BREAK
+      "menu-item#udClean",
+      "menu-item#udOrganize",
+      "menu-item#udBathroom",
+      "menu-item#usEletronics"
+    ],
+    "props": {
+      "blockClass": "carpetSubmenu",
+      "orientation": "vertical"
+    }
+  },
+  // FIRST BREAK
+  "menu-item#udCook": {
+    "props": {
+      "id": "menu-item-category-ud-cook",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "UD Para Cozinha",
+        "text": "Para Cozinhar"
+      }
+    }
+  },
+  "menu-item#udPrepare": {
+    "props": {
+      "id": "menu-item-category-ud-prepare",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "UD para Preparar",
+        "text": "Para Preparar"
+      }
+    }
+  },
+  "menu-item#udServe": {
+    "props": {
+      "id": "menu-item-category-ud-serve",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "UD para Servir",
+        "text": "Para Servir"
+      }
+    }
+  },
+  "menu-item#udKeep": {
+    "props": {
+      "id": "menu-item-category-ud-keep",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "UD para Armazenar",
+        "text": "Para Armazenar"
+      }
+    }
+  },
+  //SECOND BREAK
+  "menu-item#udClean": {
+    "props": {
+      "id": "menu-item-category-ud-clean",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "UD para Limpar",
+        "text": "Para Limpar"
+      }
+    }
+  },
+  "menu-item#udOrganize": {
+    "props": {
+      "id": "menu-item-category-ud-organize",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "UD para Organizar",
+        "text": "Para Organizar"
+      }
+    }
+  },
+  "menu-item#udBathroom": {
+    "props": {
+      "id": "menu-item-category-ud-bathroom",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "UD para Banheiro",
+        "text": "Para Banheiro"
+      }
+    }
+  },
+  "menu-item#usEletronics": {
+    "props": {
+      "id": "menu-item-category-ud-keep",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "UD para Eletrônicos",
+        "text": "Para Eletrônicos"
+      }
+    }
+  },
+  // ----------- BED ITEM ------------------
+  "menu-item#bed": {
+    "props": {
+      "id": "menu-item-category-bed",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Cama",
+        "text": "CAMA"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#bed-submenu-block"
+    ]
+  },
+  "vtex.menu@2.x:submenu#bed-submenu-block": {
+    "children": [
+      "vtex.menu@2.x:menu#bed-submenu",
+      "image#bedImg"
+    ]
+  },
+  "image#bedImg": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/bed-menu-image1.jpg",
+      "alt": "Imagem de redirecionamento para página de Camas",
+      "link": "/",
+      "blockClass": "menuImage"
+    }
+  },
+  "vtex.menu@2.x:menu#bed-submenu": {
+    "children": [
+      //FIRST BREAK
+      "menu-item#bedBlankets",
+      "menu-item#bedBedspreads",
+      "menu-item#bedComforter",
+      "menu-item#bedSet",
+      //SECOND BREAK
+      "menu-item#bedSheet",
+      "menu-item#bedSlippers",
+      "menu-item#bedPillowcase",
+      "menu-item#bedProtector",
+      //THIRD BREAK
+      "menu-item#bedSkirt",
+      "menu-item#bedPillow",
+      "menu-item#bedPillowprotector",
+      "menu-item#bedCovers"
+    ],
+    "props": {
+      "blockClass": "bedSubmenu",
+      "orientation": "vertical"
+    }
+  },
+  // FIRST BREAK
+  "menu-item#bedBlankets": {
+    "props": {
+      "id": "menu-item-category-bed-blankets",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Cobertores",
+        "text": "Cobertores"
+      }
+    }
+  },
+  "menu-item#bedBedspreads": {
+    "props": {
+      "id": "menu-item-category-bed-bedspreads",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Colchas",
+        "text": "Colchas"
+      }
+    }
+  },
+  "menu-item#bedComforter": {
+    "props": {
+      "id": "menu-item-category-bed- ",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Edredom",
+        "text": "Edredom"
+      }
+    }
+  },
+  "menu-item#bedSet": {
+    "props": {
+      "id": "menu-item-category-bed-set",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Jogo de Cama",
+        "text": "Jogo de Cama"
+      }
+    }
+  },
+  // SECOND BREAK
+  "menu-item#bedSheet": {
+    "props": {
+      "id": "menu-item-category-bed-sheet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Lençol Avulso",
+        "text": "Lençol Avulso"
+      }
+    }
+  },
+  "menu-item#bedSlippers": {
+    "props": {
+      "id": "menu-item-category-bed-slippers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Pantufas",
+        "text": "Pantufas"
+      }
+    }
+  },
+  "menu-item#bedPillowcase": {
+    "props": {
+      "id": "menu-item-category-bed-pillowcase",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Fronha de Travesseiro",
+        "text": "Fronha de Travesseiro"
+      }
+    }
+  },
+  "menu-item#bedProtector": {
+    "props": {
+      "id": "menu-item-category-bed-protector",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Protetor de Colchão",
+        "text": "Protetor de Colchão"
+      }
+    }
+  },
+  // THIRD BREAK
+  "menu-item#bedSkirt": {
+    "props": {
+      "id": "menu-item-category-bed-skirt",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Saia para Box",
+        "text": "Saia para Box"
+      }
+    }
+  },
+  "menu-item#bedPillow": {
+    "props": {
+      "id": "menu-item-category-bed-pillow",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Travesseiro",
+        "text": "Travesseiro"
+      }
+    }
+  },
+  "menu-item#bedPillowprotector": {
+    "props": {
+      "id": "menu-item-category-bed-pillowProtector",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Capa Protetora de Travesseiro",
+        "text": "Capa Protetora de Travesseiro"
+      }
+    }
+  },
+  "menu-item#bedCovers": {
+    "props": {
+      "id": "menu-item-category-bed-covers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Cobreleito",
+        "text": "Cobreleito"
+      }
+    }
+  },
+  // ------------ TABLE ITEM -----------------
+  "menu-item#table": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#table-submenu-block"
+    ],
+    "props": {
+      "id": "menu-item-category-table",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Mesa",
+        "text": "MESA"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#table-submenu-block": {
+    "children": [
+      "vtex.menu@2.x:menu#table-submenu",
+      "image#tableImg"
+    ]
+  },
+  "image#tableImg": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/table-menu-image.jpg",
+      "alt": "Imagem de redirecionamento para página de Camas",
+      "link": "/",
+      "blockClass": "menuImage"
+    }
+  },
+  "vtex.menu@2.x:menu#table-submenu": {
+    "children": [
+      //FIRST BREAK
+      "menu-item#tableCloth",
+      "menu-item#tableRails",
+      "menu-item#tableNapkin",
+      "menu-item#tableDinner",
+      //SECOND BREAK
+      "menu-item#tableAmerican",
+      "menu-item#tableCup"
+    ],
+    "props": {
+      "blockClass": "bedSubmenu",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#tableCloth": {
+    "props": {
+      "id": "menu-item-category-table-cloth",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Toalha de Mesa",
+        "text": "Toalha de Mesa"
+      }
+    }
+  },
+  "menu-item#tableRails": {
+    "props": {
+      "id": "menu-item-category-table-rails",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Trilhos de Mesa",
+        "text": "Trilhosa de Mesa"
+      }
+    }
+  },
+  "menu-item#tableNapkin": {
+    "props": {
+      "id": "menu-item-category-table-napkin",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Guardanapo",
+        "text": "Guardanapos"
+      }
+    }
+  },
+  "menu-item#tableDinner": {
+    "props": {
+      "id": "menu-item-category-table-dinner",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Aparelhos de Jantar",
+        "text": "Aparelhos de Jantar"
+      }
+    }
+  },
+  "menu-item#tableAmerican": {
+    "props": {
+      "id": "menu-item-category-table-american",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Jogo Americano",
+        "text": "Jogo Americano"
+      }
+    }
+  },
+  "menu-item#tableCup": {
+    "props": {
+      "id": "menu-item-category-table-cup",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Pano de Copa",
+        "text": "Pano de Copa"
+      }
+    }
+  },
+  // ------------ DECORATION ITEM ---------------
+  "menu-item#decoration": {
+    "children": [],
+    "props": {}
+  },
+  // DECORATION ITEM
+  "menu-item#toys": {
+    "children": [],
+    "props": {}
+  },
+  // DECORATION ITEM
+  "menu-item#christmas": {
+    "children": [],
+    "props": {}
+  },
+  "menu-item#category-clothing": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-clothing"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-clothing": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-clothing"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-clothing": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-clothing-hats",
+      "menu-item#category-clothing-shoes",
+      "menu-item#category-clothing-bags"
+    ]
+  },
+  "menu-item#category-clothing-hats": {
+    "props": {
+      "id": "menu-item-category-clothing-hats",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/hats/",
+        "noFollow": true,
+        "tagTitle": "Hats",
+        "text": "Hats"
+      }
+    }
+  },
+  "menu-item#category-clothing-shoes": {
+    "props": {
+      "id": "menu-item-category-clothing-shoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/shoes/",
+        "noFollow": true,
+        "tagTitle": "Shoes",
+        "text": "Shoes"
+      }
+    }
+  },
+  "menu-item#category-clothing-bags": {
+    "props": {
+      "id": "menu-item-category-clothing-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/bags/",
+        "noFollow": true,
+        "tagTitle": "Bags",
+        "text": "Bags"
+      }
+    }
+  },
+  "menu-item#category-decoration": {
+    "props": {
+      "id": "menu-item-category-decoration",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": true,
+        "tagTitle": "Decoration",
+        "text": "Decoration"
+      }
+    }
+  },
+  "menu-item#custom-sale": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sale/d",
+        "noFollow": true,
+        "tagTitle": "Sale",
+        "text": "Sale"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#custom-sale"
+    ]
+  },
+  "vtex.menu@2.x:submenu#custom-sale": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#custom-sale",
+      "info-card#home"
+    ]
+  },
+  "info-card#home": {
+    "props": {
+      "text": "top"
+    }
+  },
+  "vtex.menu@2.x:menu#custom-sale": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-clothing-hats",
+      "menu-item#category-clothing-shoes"
+    ]
+  }
+}

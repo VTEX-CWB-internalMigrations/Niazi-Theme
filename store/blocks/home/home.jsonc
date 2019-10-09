@@ -7,7 +7,7 @@
       "image#promo",
       "flex-layout.row#deals",
       "flex-layout.row#deals2",
-      "shelf#home",
+      "shelf#home1",
       "shelf#home2",
       "shelf#home3",
       "shelf#home4",
@@ -130,7 +130,7 @@
     }
   },
   // SHELF 1
-  "shelf#home": {
+  "shelf#home1": {
     "blocks": [
       "product-summary.shelf"
     ],
@@ -143,7 +143,7 @@
         "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Top sellers"
+        "titleText": "OS QUERIDINHOS "
       }
     }
   },

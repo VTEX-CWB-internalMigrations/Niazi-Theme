@@ -226,4 +226,12 @@
     width: 200px;
     font-size: 12px;
   }
+
+  .productDescriptionContainer{
+    margin: 70px 0px;
+  }
+  .imageElement--menuImage{
+    width: 215px;
+    height: 430px;
+  }
 }

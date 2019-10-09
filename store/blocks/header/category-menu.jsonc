@@ -6,6 +6,7 @@
       "menu-item#ud",
       "menu-item#bed",
       "menu-item#table",
+      "menu-item#bath",
       "menu-item#decoration",
       "menu-item#toys",
       "menu-item#christmas"
@@ -1116,6 +1117,226 @@
         "noFollow": true,
         "tagTitle": "Pano de Copa",
         "text": "Pano de Copa"
+      }
+    }
+  },
+  // ----------- BATH ITEM ------------------
+  "menu-item#bath": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#bath-submenu-block"
+    ],
+    "props": {
+      "id": "menu-item-category-bath",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Banho",
+        "text": "BANHO"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#bath-submenu-block": {
+    "children": [
+      "vtex.menu@2.x:menu#bath-submenu",
+      "image#bathImg"
+    ]
+  },
+  "image#bathImg": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/bath-menu-image.jpg",
+      "alt": "Imagem de redirecionamento para página de Camas",
+      "link": "/",
+      "blockClass": "menuImage"
+    }
+  },
+  "vtex.menu@2.x:menu#bath-submenu": {
+    "children": [
+      // BREAK 1
+      "menu-item#bathSet",
+      "menu-item#bathRobe",
+      "menu-item#bathTowel",
+      "menu-item#bathVisittowel",
+      // BREAK 2
+      "menu-item#bathBeachtowel",
+      "menu-item#bathFacetowel",
+      "menu-item#bathChildtowel",
+      "menu-item#bathShowertowel",
+      // BREAK 3
+      "menu-item#bathFloortowel",
+      "menu-item#bathToilettowel",
+      "menu-item#bathClubtowel"
+    ],
+    "props": {
+      "blockClass": "bedSubmenu",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#bathSet": {
+    "props": {
+      "id": "menu-item-category-bath-set",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Jogo de Banho",
+        "text": "Jogo de Banho"
+      }
+    }
+  },
+  "menu-item#bathRobe": {
+    "props": {
+      "id": "menu-item-category-bath-robe",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Roupão",
+        "text": "Roupão"
+      }
+    }
+  },
+  "menu-item#bathTowel": {
+    "props": {
+      "id": "menu-item-category-bath-towel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Toalha de Banho",
+        "text": "Toalha de Banho"
+      }
+    }
+  },
+  "menu-item#bathVisittowel": {
+    "props": {
+      "id": "menu-item-category-bath-visit-towel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Toalha de Visita",
+        "text": "Toalha de Visita"
+      }
+    }
+  },
+  "menu-item#bathBeachtowel": {
+    "props": {
+      "id": "menu-item-category-bath-beach-towel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Toalha de Praia",
+        "text": "Toalha de Praia"
+      }
+    }
+  },
+  "menu-item#bathFacetowel": {
+    "props": {
+      "id": "menu-item-category-bath-face-towel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Toalha de Rosto",
+        "text": "Toalha de Rosto"
+      }
+    }
+  },
+  "menu-item#bathChildtowel": {
+    "props": {
+      "id": "menu-item-category-bath-child-towel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Toalha Infantil",
+        "text": "Toalha de Visita"
+      }
+    }
+  },
+  "menu-item#bathShowertowel": {
+    "props": {
+      "id": "menu-item-category-bath-shower-towel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Touca de Banho",
+        "text": "Touca de Banho"
+      }
+    }
+  },
+  "menu-item#bathFloortowel": {
+    "props": {
+      "id": "menu-item-category-bath-floor-towel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Toalha de Piso",
+        "text": "Toalha de Piso"
+      }
+    }
+  },
+  "menu-item#bathToilettowel": {
+    "props": {
+      "id": "menu-item-category-bath-toilet-towel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Toalha de Lavabo",
+        "text": "Toalha de Lavabo"
+      }
+    }
+  },
+  "menu-item#bathClubtowel": {
+    "props": {
+      "id": "menu-item-category-bath-club-towel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Toalha de Clube",
+        "text": "Toalha de Clube"
       }
     }
   },

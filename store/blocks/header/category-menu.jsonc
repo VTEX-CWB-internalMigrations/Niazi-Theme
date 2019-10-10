@@ -1342,8 +1342,240 @@
   },
   // ------------ DECORATION ITEM ---------------
   "menu-item#decoration": {
-    "children": [],
-    "props": {}
+    "blocks": [
+      "vtex.menu@2.x:submenu#decoration-submenu-block"
+    ],
+    "props": {
+      "id": "menu-item-category-decoration",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "DECORAÇÃO",
+        "text": "DECORAÇÃO"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#decoration-submenu-block": {
+    "children": [
+      "vtex.menu@2.x:menu#decoration-submenu",
+      "image#decorationImg"
+    ]
+  },
+  "image#decorationImg": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/decoration-menu-image.jpg",
+      "alt": "Imagem de redirecionamento para página de Decoração",
+      "link": "/",
+      "blockClass": "menuImage"
+    }
+  },
+  "vtex.menu@2.x:menu#decoration-submenu": {
+    "children": [
+      // FIRST BREAK
+      "menu-item#decorationCurtain",
+      "menu-item#decorationFlavoring",
+      "menu-item#decorationCover",
+      "menu-item#decorationCoverCouch",
+      // SECOND BREAK
+      "menu-item#decorationFilling",
+      "menu-item#decorationFuton",
+      "menu-item#decorationQuilts",
+      "menu-item#decorationChild",
+      // THIRD BREAK
+      "menu-item#decorationLamp",
+      "menu-item#decorationBlind",
+      "menu-item#decorationFurniture",
+      "menu-item#decorationChair"
+    ],
+    "props": {
+      "blockClass": "bedSubmenu",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#decorationCurtain": {
+    "props": {
+      "id": "menu-item-category-decoration-curtain",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Acessório para Cortinas",
+        "text": "Acessório para Cortinas"
+      }
+    }
+  },
+  "menu-item#decorationFlavoring": {
+    "props": {
+      "id": "menu-item-category-decoration-flavoring",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Aromatizadores de Ambiente",
+        "text": "Aromatizadores de Ambiente"
+      }
+    }
+  },
+  "menu-item#decorationCover": {
+    "props": {
+      "id": "menu-item-category-decoration-cover",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Capa para Almofada",
+        "text": "Capa para Almofada"
+      }
+    }
+  },
+  "menu-item#decorationCoverCouch": {
+    "props": {
+      "id": "menu-item-category-decoration-cover-couch",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Capa para Sofá",
+        "text": "Capa para Sofá"
+      }
+    }
+  },
+  "menu-item#decorationFilling": {
+    "props": {
+      "id": "menu-item-category-decoration-filling",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Enchimento de Almofada",
+        "text": "Enchimento de Almofada"
+      }
+    }
+  },
+  "menu-item#decorationFuton": {
+    "props": {
+      "id": "menu-item-category-decoration-futon",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Futon e Assento de Cadeira",
+        "text": "Futon e Assento de Cadeira"
+      }
+    }
+  },
+  "menu-item#decorationQuilts": {
+    "props": {
+      "id": "menu-item-category-decoration-cover-couch",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Mantas e Xalés",
+        "text": "Mantas e Xalés"
+      }
+    }
+  },
+  "menu-item#decorationChild": {
+    "props": {
+      "id": "menu-item-category-decoration-child",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Linha Infantil",
+        "text": "Linha Infantil"
+      }
+    }
+  },
+  // THIRD BREAK
+  "menu-item#decorationLamp": {
+    "props": {
+      "id": "menu-item-category-decoration-lamp",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Luminárias Solares",
+        "text": "Luminárias Solares"
+      }
+    }
+  },
+  "menu-item#decorationBlind": {
+    "props": {
+      "id": "menu-item-category-decoration-blind",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Persiana para Janelas",
+        "text": "Persiana para Janelas"
+      }
+    }
+  },
+  "menu-item#decorationFurniture": {
+    "props": {
+      "id": "menu-item-category-decoration-furniture",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Móveis",
+        "text": "Móveis"
+      }
+    }
+  },
+  "menu-item#decorationChair": {
+    "props": {
+      "id": "menu-item-category-decoration-chair",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Capa para Cadeira",
+        "text": "Capa para Cadeira"
+      }
+    }
   },
   // DECORATION ITEM
   "menu-item#toys": {

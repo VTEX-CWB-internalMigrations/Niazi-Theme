@@ -67,7 +67,7 @@
       "menu-item#allHall"
     ],
     "props": {
-      "blockClass": "allSubmenu",
+      "blockClass": "mainsubmenu",
       "orientation": "vertical"
     }
   },
@@ -382,7 +382,7 @@
       "menu-item#carpetCrosswalk"
     ],
     "props": {
-      "blockClass": "carpetSubmenu",
+      "blockClass": "mainsubmenu",
       "orientation": "vertical"
     }
   },
@@ -616,7 +616,7 @@
       "menu-item#usEletronics"
     ],
     "props": {
-      "blockClass": "carpetSubmenu",
+      "blockClass": "mainsubmenu",
       "orientation": "vertical"
     }
   },
@@ -794,7 +794,7 @@
       "menu-item#bedCovers"
     ],
     "props": {
-      "blockClass": "bedSubmenu",
+      "blockClass": "mainsubmenu",
       "orientation": "vertical"
     }
   },
@@ -1026,7 +1026,7 @@
       "menu-item#tableCup"
     ],
     "props": {
-      "blockClass": "bedSubmenu",
+      "blockClass": "mainsubmenu",
       "orientation": "vertical"
     }
   },
@@ -1171,7 +1171,7 @@
       "menu-item#bathClubtowel"
     ],
     "props": {
-      "blockClass": "bedSubmenu",
+      "blockClass": "mainsubmenu",
       "orientation": "vertical"
     }
   },
@@ -1392,7 +1392,7 @@
       "menu-item#decorationChair"
     ],
     "props": {
-      "blockClass": "bedSubmenu",
+      "blockClass": "mainsubmenu",
       "orientation": "vertical"
     }
   },
@@ -1577,15 +1577,439 @@
       }
     }
   },
-  // DECORATION ITEM
+  // ----------- TOYS ITEM ---------------
   "menu-item#toys": {
-    "children": [],
-    "props": {}
+    "props": {
+      "id": "menu-item-category-toys",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "BRINQUEDOS",
+        "text": "BRINQUEDOS"
+      }
+    }
   },
-  // DECORATION ITEM
+  // --------------- CHRISTMAS ITEM -------------
   "menu-item#christmas": {
-    "children": [],
-    "props": {}
+    "props": {
+      "id": "menu-item-category-christmas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "NATAL",
+        "text": "NATAL"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#christmas-submenu-block"
+    ]
+  },
+  "vtex.menu@2.x:submenu#christmas-submenu-block": {
+    "children": [
+      "vtex.menu@2.x:menu#christmas-submenu",
+      "image#christmasImg"
+    ]
+  },
+  "image#christmasImg": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/christmas-menu-image1.jpg",
+      "alt": "Imagem de redirecionamento para página de Natal",
+      "link": "/",
+      "blockClass": "menuImage"
+    }
+  },
+  "vtex.menu@2.x:menu#christmas-submenu": {
+    "children": [
+      //FIRST BREAK
+      "menu-item#christmasPuff",
+      "menu-item#christmasTree",
+      "menu-item#christmasBalls",
+      "menu-item#christmasPuppet",
+      //SECOND BREAK
+      "menu-item#christmasSnowpuppet",
+      "menu-item#christmasBoots",
+      "menu-item#christmasCover",
+      "menu-item#christmasPottery",
+      //THIRD BREAK
+      "menu-item#christmasOrnament",
+      "menu-item#christmasGarland",
+      "menu-item#christmasBranch",
+      "menu-item#christmasNapkin",
+      //FOURTH BREAK
+      "menu-item#christmasPuddening",
+      "menu-item#christmasInflatable",
+      "menu-item#christmasAmerican",
+      "menu-item#christmasCan",
+      //FIFITH BREAK
+      "menu-item#christmasLeds",
+      "menu-item#christmasJesusBoy",
+      "menu-item#christmasSantaClaus",
+      "menu-item#christmasPlush",
+      "menu-item#christmasCrib",
+      "menu-item#christmasCarpet",
+      "menu-item#christmasTableCarpet"
+    ],
+    "props": {
+      "blockClass": "mainsubmenu",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#christmasPuff": {
+    "props": {
+      "id": "menu-item-category-christmas-puff",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Almofadas",
+        "text": "Almofadas"
+      }
+    }
+  },
+  "menu-item#christmasTree": {
+    "props": {
+      "id": "menu-item-category-christmas-trees",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Árvores de Natal",
+        "text": "Árvores de Natal"
+      }
+    }
+  },
+  "menu-item#christmasBalls": {
+    "props": {
+      "id": "menu-item-category-christmas-balls",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Bolas Natalinas",
+        "text": "Bolas Natalinas"
+      }
+    }
+  },
+  "menu-item#christmasPuppet": {
+    "props": {
+      "id": "menu-item-category-christmas-puppet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Bonecos",
+        "text": "Bonecos"
+      }
+    }
+  },
+  //SECOND BREAK
+  "menu-item#christmasSnowpuppet": {
+    "props": {
+      "id": "menu-item-category-christmas--snow-puppet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Bonecos de Neve",
+        "text": "Bonecos de Neve"
+      }
+    }
+  },
+  "menu-item#christmasBoots": {
+    "props": {
+      "id": "menu-item-category-christmas-boots",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Botas",
+        "text": "Botas"
+      }
+    }
+  },
+  "menu-item#christmasCover": {
+    "props": {
+      "id": "menu-item-category-christmas-cover",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Capa de Almofada",
+        "text": "Capa de Almofada"
+      }
+    }
+  },
+  "menu-item#christmasPottery": {
+    "props": {
+      "id": "menu-item-category-christmas-pottery",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Cerâmica",
+        "text": "Cerâmica"
+      }
+    }
+  },
+  //THIRD BREAK
+  "menu-item#christmasOrnament": {
+    "props": {
+      "id": "menu-item-category-christmas-ornament",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Enfeites",
+        "text": "Enfeites"
+      }
+    }
+  },
+  "menu-item#christmasGarland": {
+    "props": {
+      "id": "menu-item-category-christmas-garland",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Festão",
+        "text": "Festão"
+      }
+    }
+  },
+  "menu-item#christmasBranch": {
+    "props": {
+      "id": "menu-item-category-christmas-branch",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Galhos e Flores",
+        "text": "Galhoes e Flores"
+      }
+    }
+  },
+  "menu-item#christmasNapkin": {
+    "props": {
+      "id": "menu-item-category-christmas-napkin",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Guardanapos",
+        "text": "Guardanapos"
+      }
+    }
+  },
+  //FOURTH BREAK
+  "menu-item#christmasPuddening": {
+    "props": {
+      "id": "menu-item-category-christmas-puddening",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Guirlandas e Enfeites de Porta",
+        "text": "Guirlandas e Enfeites de Porta"
+      }
+    }
+  },
+  "menu-item#christmasInflatable": {
+    "props": {
+      "id": "menu-item-category-christmas-inflatable",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Infláveis",
+        "text": "Infláveis"
+      }
+    }
+  },
+  "menu-item#christmasAmerican": {
+    "props": {
+      "id": "menu-item-category-christmas-american",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Jogo Americano",
+        "text": "Jogo Americano"
+      }
+    }
+  },
+  "menu-item#christmasCan": {
+    "props": {
+      "id": "menu-item-category-christmas-can",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Latas Decorativas",
+        "text": "Latas Decorativas"
+      }
+    }
+  },
+  //FIFITH BREAK
+  "menu-item#christmasLeds": {
+    "props": {
+      "id": "menu-item-category-christmas-leds",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Leds, Piscas e Luminosos",
+        "text": "Leds, Piscas e Luminosos"
+      }
+    }
+  },
+  "menu-item#christmasJesusBoy": {
+    "props": {
+      "id": "menu-item-category-christmas-jesus-boy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Menino Jesus",
+        "text": "Menino Jesus"
+      }
+    }
+  },
+  "menu-item#christmasSantaClaus": {
+    "props": {
+      "id": "menu-item-category-christmas-santa-claus",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Papai Noel",
+        "text": "Papai Noel"
+      }
+    }
+  },
+  "menu-item#christmasPlush": {
+    "props": {
+      "id": "menu-item-category-christmas-plush",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Pelúcia",
+        "text": "Pelúcia"
+      }
+    }
+  },
+  "menu-item#christmasCrib": {
+    "props": {
+      "id": "menu-item-category-christmas-crib",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Presépios",
+        "text": "Presépios"
+      }
+    }
+  },
+  "menu-item#christmasCarpet": {
+    "props": {
+      "id": "menu-item-category-christmas-carpet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tapetes Natalinos",
+        "text": "Tapetes Natalinos"
+      }
+    }
+  },
+  "menu-item#christmasTableCarpet": {
+    "props": {
+      "id": "menu-item-category-christmas-table-carpet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tapetes de Mesa",
+        "text": "Tapetes de Mesa"
+      }
+    }
   },
   "menu-item#category-clothing": {
     "props": {

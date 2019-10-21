@@ -57,8 +57,7 @@
       "product-summary-buy-button"
     ],
     "props": {
-      "blockClass": "relatedShelf",
-      "showBadge": true
+      "blockClass": "relatedShelf"
     }
   },
   "stack-layout#prodsum": {
@@ -69,14 +68,14 @@
   },
   "product-summary-specification-badges": {
     "props": {
-      "specificationGroupName": "Filtros",
-      "specificationName": "Dimensões",
-      "displayValue": "SPECIFICATION_NAME",
-      "blockClass": "specificationBox"
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [
+        {
+          "specificationName": "Dimensões",
+          "displayValue": "SPECIFICATION_VALUE"
+        }
+      ]
     }
-  },
-  "product-summary-price#": {
-    "props": {}
   },
   "store.product-review-form": {
     "blocks": [

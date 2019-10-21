@@ -116,7 +116,7 @@
   },
   "shelf.relatedProducts": {
     "blocks": [
-      "product-summary.shelf#relatedProducts"
+      "product-summary.shelf"
     ]
   }
 }

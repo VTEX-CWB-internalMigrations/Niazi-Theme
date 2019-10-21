@@ -68,6 +68,7 @@
       "product-separator",
       "product-price#product-details",
       "product-quantity",
+      //"shelf.relatedProducts",
       "sku-selector",
       "product-assembly-options",
       "flex-layout.row#buy-button",
@@ -77,7 +78,8 @@
   },
   "sku-selector": {
     "props": {
-      "hideImpossibleCombinations": false
+      "hideImpossibleCombinations": false,
+      "showValueNameForImageVariation": true
     }
   },
   "product-name#productPage": {
@@ -111,5 +113,10 @@
         "Pinterest": true
       }
     }
+  },
+  "shelf.relatedProducts": {
+    "blocks": [
+      "product-summary.shelf#relatedProducts"
+    ]
   }
 }

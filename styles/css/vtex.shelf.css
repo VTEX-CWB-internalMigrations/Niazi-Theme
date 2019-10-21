@@ -29,6 +29,10 @@
     padding: 5px;
 }
 
+.relatedProducts .title{
+    display: none;
+}
+
 @media only screen and (max-width: 640px) {
     .title{
         font-size: 25px;  

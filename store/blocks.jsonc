@@ -35,8 +35,8 @@
   },
   "product-summary.shelf": {
     "children": [
+      "stack-layout#prodsum",
       "product-summary-add-to-list-button",
-      "product-summary-image",
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
@@ -45,7 +45,37 @@
       "product-summary-buy-button"
     ]
   },
-  "product-summary-price#meuovo": {
+  "product-summary.shelf#relatedProducts": {
+    "children": [
+      "product-summary-add-to-list-button",
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      // "product-identifier.summary",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "relatedShelf",
+      "showBadge": true
+    }
+  },
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image",
+      "product-summary-specification-badges"
+    ]
+  },
+  "product-summary-specification-badges": {
+    "props": {
+      "specificationGroupName": "Filtros",
+      "specificationName": "Dimensões",
+      "displayValue": "SPECIFICATION_NAME",
+      "blockClass": "specificationBox"
+    }
+  },
+  "product-summary-price#": {
     "props": {}
   },
   "store.product-review-form": {

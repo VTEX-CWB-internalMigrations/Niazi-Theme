@@ -33,6 +33,10 @@
     display: none;
 }
 
+.relatedProducts :global(.justify-center){
+    justify-content: left;
+}
+
 @media only screen and (max-width: 640px) {
     .title{
         font-size: 25px;  

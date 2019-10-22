@@ -6,3 +6,12 @@
 .buyButton{
     margin: 0px 40px;
 }
+
+.badgeContainer--dimensoes{
+    border: 2px solid #d1d1d1;
+    border-radius: 5px;
+}
+
+/* .badgeContainer--dimensoes .badgeText{
+    font-size: 13px;
+} */

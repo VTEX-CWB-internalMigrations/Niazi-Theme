@@ -85,7 +85,7 @@
   "product-name#productPage": {
     "props": {
       "blockClass": "productPage",
-      "showSku": true
+      "showSku": false
     }
   },
   "product-price#product-details": {

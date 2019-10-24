@@ -40,6 +40,7 @@
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
+      "product-summary-sku-selector",
       "product-summary-price",
       // "product-identifier.summary",
       "product-summary-buy-button"
@@ -51,6 +52,15 @@
     ],
     "props": {
       "blockClass": "relatedShelf"
+    }
+  },
+  "product-summary-sku-selector": {
+    "props": {
+      "visibleVariations": [
+        "cor"
+      ],
+      "variationsSpacing": 0,
+      "showVariationsLabels": false
     }
   },
   "stack-layout#prodsum": {

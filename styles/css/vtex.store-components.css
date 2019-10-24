@@ -79,7 +79,7 @@
   font-weight: 400;
   color: #cf872e;
   font-family: Impact;
-  font-size: 31px;
+  font-size: 20px;
 }
 
 .listPriceLabel , .listPriceValue{
@@ -115,6 +115,14 @@
   width: 20% !important;
 }
 
+.installmentsPrice{
+  max-width: 100%;
+}
+
+.productDescriptionContainer{
+  margin-top: 70px;
+}
+
 @media only screen and (min-width: 640px) {
   .label {
     font-size: 40px;
@@ -126,6 +134,10 @@
 
   .infoCardContainer--info-card-home .infoCardImageContainer {
     width: 70%;
+  }
+
+  .sellingPrice{
+    font-size: 31px;
   }
 
   .imageElement--storePrint {

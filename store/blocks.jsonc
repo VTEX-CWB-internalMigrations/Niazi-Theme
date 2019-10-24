@@ -38,12 +38,20 @@
       "stack-layout#prodsum",
       "product-summary-add-to-list-button",
       "product-summary-name",
+      "product-summary-sku-selector#color",
       "product-rating-inline",
       "product-summary-space",
       "product-summary-price",
       // "product-identifier.summary",
       "product-summary-buy-button"
     ]
+  },
+  "product-summary-sku-selector#color": {
+    "props": {
+      "visibleVariations": ["cor"],
+      "variationsSpacing": 0,
+      "showVariationsLabels": false
+    }
   },
   "product-summary.shelf#relatedProducts": {
     "children": [

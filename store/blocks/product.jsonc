@@ -127,9 +127,9 @@
         "scroll": "BY_PAGE",
         "arrows": false,
         "paginationDotsVisibility": "hidden",
-        "titleText": "Outros Tamanhos"
+        "titleText": "OUTROS TAMANHOS"
       },
-      "blockClass": "monster"
+      "blockClass": "sizes"
     }
   },
   "shelf.relatedProducts#second": {

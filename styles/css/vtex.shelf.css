@@ -33,8 +33,23 @@
     display: none;
 }
 
-.relatedProducts :global(.justify-center){
+.relatedProducts--sizes :global(.justify-center){
     justify-content: left;
+}
+
+.relatedProducts.relatedProducts--sizes .title--sizes{
+    display: block;
+    font-size: 14px;
+    color: #767273;
+    padding: 0px;
+    font-family: Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight: 400;
+}
+.title--sizes::after{
+    display: none
+}
+.title--sizes::before{
+    display: none
 }
 
 @media only screen and (max-width: 640px) {

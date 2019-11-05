@@ -60,7 +60,8 @@
         "cor"
       ],
       "variationsSpacing": 0,
-      "showVariationsLabels": false
+      "showVariationsLabels": false,
+      "blockClass": "summarySku"
     }
   },
   "stack-layout#prodsum": {

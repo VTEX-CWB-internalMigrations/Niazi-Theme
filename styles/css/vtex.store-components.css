@@ -13,7 +13,6 @@
 .searchBarContainer label div{
   border: 0px;
 }
-
 .searchBarIcon{
   color: #de1c0e;
 }
@@ -114,6 +113,9 @@
 .carouselGaleryThumbs :global(.swiper-slide){
   width: 20% !important;
 }
+.carouselGaleryThumbs{
+  padding: 0px 35px;
+}
 
 .installmentsPrice{
   max-width: 100%;
@@ -207,7 +209,7 @@
     max-width: 265px;
   }
 
-  .productDescriptionContainer :global(.t-heading-5){
+  .productDescriptionTitle{
     background: #b3b3b3;
     color: #fff;
     padding: 15px;
@@ -224,7 +226,7 @@
     margin-bottom: 10px;
   }
 
-  .productDescriptionContainer :global(.c-muted-1){
+  .productDescriptionText{
     margin: 10px auto;
     width: 80%;
   }

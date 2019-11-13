@@ -28,14 +28,15 @@
     },
     "children": [
       "flex-layout.col#product-image",
-      "flex-layout.col#middle-col",
+      //"flex-layout.col#middle-col",
       "flex-layout.col#right-col"
     ]
   },
   "flex-layout.col#product-image": {
     "props": {
-      "width": "40%",
-      "rowGap": 0
+      "width": "50%",
+      "rowGap": 0,
+      "paddingRight": 0
     },
     "children": [
       "product-images",
@@ -50,7 +51,7 @@
   },
   "flex-layout.col#middle-col": {
     "props": {
-      "width": "10%",
+      "width": "3%",
       "rowGap": 0
     }
   },

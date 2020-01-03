@@ -10,7 +10,7 @@
   border-bottom: 2px solid #D9D9D9;
 }
 
-.searchBarContainer label div{
+.searchBarContainer :global(.vtex-input-prefix__group){
   border: 0px;
 }
 .searchBarIcon{
@@ -124,6 +124,46 @@
 .productDescriptionContainer{
   margin-top: 70px;
 }
+
+.skuSelectorNameContainer{
+  min-height: 45px;
+  max-height: 92px;
+  overflow: hidden;
+  padding: 4px;
+}
+
+.skuSelectorItemImage{
+  height: 27px;
+  width: 27px;
+}
+
+.frameAround{
+  width: 35px;
+  height: 35px;
+}
+
+.skuSelectorItemImageValue{
+  width: 25px;
+  height: 25px;
+}
+
+.skuSelectorSubcontainer{
+  height: 45px;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.skuSelectorTextContainer{
+  display: none;
+}
+
+.seeMoreButton :global(.vtex-button){
+  max-width: 300px;
+  padding: 0px 10px;
+  border-radius: 10px;
+  max-height: 10px;
+}
+
 
 @media only screen and (min-width: 640px) {
   .label {

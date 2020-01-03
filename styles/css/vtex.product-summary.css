@@ -17,6 +17,16 @@
     .buyButton{
         margin: 0px 40px;
     }
+
+    .buyButton{
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .element:hover .buyButton{
+        opacity: 1
+    }
+
 }
 
 /* .badgeContainer--dimensoes .badgeText{

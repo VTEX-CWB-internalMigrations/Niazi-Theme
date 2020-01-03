@@ -33,9 +33,9 @@
     display: none;
 }
 
-.relatedProducts--sizes :global(.justify-center){
+/* .relatedProducts--sizes :global(.justify-center){
     justify-content: left;
-}
+} */
 
 .relatedProducts.relatedProducts--sizes .title--sizes{
     display: block;

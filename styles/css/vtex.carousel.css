@@ -2,9 +2,9 @@
   background-color: #fff;
 }
 
-.containerImg img {
+.containerImg .img--mainCarousel{
   max-width: 1520px;
-}
+} 
 
 .dot{
   height: 20px;

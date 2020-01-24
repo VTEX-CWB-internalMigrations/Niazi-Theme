@@ -80,13 +80,13 @@
   "sku-selector": {
     "props": {
       "hideImpossibleCombinations": false,
-      "showValueNameForImageVariation": true
+      "showVariationsLabels": true
     }
   },
   "product-name#productPage": {
     "props": {
       "blockClass": "productPage",
-      "showSku": false
+      "showSku": true
     }
   },
   "product-price#product-details": {

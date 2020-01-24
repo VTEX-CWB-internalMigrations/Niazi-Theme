@@ -13,6 +13,18 @@
     justify-content: center;
     max-width: 140px;
 }
+
+.imageContainer{
+    max-width: 245px;
+    max-height: 240px;
+}
+
+.productBrand{
+    height: 38px;
+    overflow: hidden;
+    display: block;
+}
+
 @media only screen and (min-width: 640px){
     .buyButton{
         margin: 0px 40px;

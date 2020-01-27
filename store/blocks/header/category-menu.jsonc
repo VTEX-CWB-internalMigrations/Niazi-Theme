@@ -44,7 +44,10 @@
     }
   },
   "vtex.menu@2.x:menu#submenuMain": {
-    "children": []
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
   },
   "image#categoryImage": {
     "props": {}

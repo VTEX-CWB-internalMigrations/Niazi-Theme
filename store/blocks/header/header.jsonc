@@ -91,12 +91,6 @@
     ],
     "props": {}
   },
-  "drawer": {
-    "children": [
-      "category-menu#mobile"
-      //"menu#drawer"
-    ]
-  },
   "menu#drawer": {
     "children": [],
     "props": {

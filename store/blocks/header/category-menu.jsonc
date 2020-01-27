@@ -50,7 +50,9 @@
     }
   },
   "image#categoriesImage": {
-    "props": {}
+    "props": {
+      "blockClass": "categoryImages"
+    }
   },
   // ------------ CARPET ITEM -----------------
   "menu-item#carpet": {

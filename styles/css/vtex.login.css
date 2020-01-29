@@ -7,7 +7,9 @@
     display: inline-block;
     background-repeat: no-repeat;
 }
-
+.label{
+    display: block;
+}
 @media only screen and (max-width: 640px) {
     .label{
         display: block;

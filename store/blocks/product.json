@@ -28,7 +28,6 @@
     },
     "children": [
       "flex-layout.col#product-image",
-      //"flex-layout.col#middle-col",
       "flex-layout.col#right-col"
     ]
   },
@@ -44,10 +43,7 @@
     ]
   },
   "product-images": {
-    "props": {
-      "displayThumbnailsArrows": true,
-      "thumbnailsOrientation": "horizontal"
-    }
+    "props": {}
   },
   "flex-layout.col#middle-col": {
     "props": {
@@ -68,6 +64,7 @@
       "product-rating-summary",
       "product-separator",
       "product-price#product-details",
+      "rich-text#in-cash",
       "product-quantity",
       "shelf.relatedProducts",
       "sku-selector",
@@ -77,6 +74,12 @@
       "shipping-simulator"
     ]
   },
+  "rich-text#in-cash": {
+    "props": {
+      "blockClass": "inCash",
+      "text": "5% de desconto no BOLETO"
+    }
+  },
   "sku-selector": {
     "props": {
       "hideImpossibleCombinations": false,
@@ -85,8 +88,7 @@
   },
   "product-name#productPage": {
     "props": {
-      "blockClass": "productPage",
-      "showSku": true
+      "blockClass": "productPage"
     }
   },
   "product-price#product-details": {

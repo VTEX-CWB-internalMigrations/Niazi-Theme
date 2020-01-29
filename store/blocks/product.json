@@ -43,7 +43,11 @@
     ]
   },
   "product-images": {
-    "props": {}
+    "props": {
+      "thumbnailsOrientation": "vertical",
+      "position": "left",
+      "displayThumbnailsArrow": true
+    }
   },
   "flex-layout.col#middle-col": {
     "props": {
@@ -83,7 +87,9 @@
   "sku-selector": {
     "props": {
       "hideImpossibleCombinations": false,
-      "showVariationsLabels": true
+      "showVariationsLabels": true,
+      "showValueForVariation": "all",
+      "showValueNameForImageVariation": true
     }
   },
   "product-name#productPage": {

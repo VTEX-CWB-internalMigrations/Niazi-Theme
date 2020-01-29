@@ -148,13 +148,13 @@
 }
 
 .skuSelectorSubcontainer{
-  height: 45px;
+  height: 65px;
   overflow: hidden;
-  padding: 5px;
 }
 
 .skuSelectorTextContainer{
-  display: none;
+  margin: 0px;
+  height: 20px;
 }
 
 .seeMoreButton :global(.vtex-button){

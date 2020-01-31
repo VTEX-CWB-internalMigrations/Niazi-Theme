@@ -5,6 +5,8 @@
       "flex-layout.row#product-main",
       "shelf.relatedProducts#second",
       "product-description",
+      "shelf.relatedProducts#third",
+      "shelf.relatedProducts#fourth",
       "product-reviews",
       "product-questions-and-answers"
     ]
@@ -142,6 +144,16 @@
     }
   },
   "shelf.relatedProducts#second": {
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  },
+  "shelf.relatedProducts#third": {
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  },
+  "shelf.relatedProducts#fourth": {
     "blocks": [
       "product-summary.shelf"
     ]

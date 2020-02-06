@@ -72,7 +72,7 @@
       "product-price#product-details",
       "rich-text#in-cash",
       "product-quantity",
-      "shelf.relatedProducts",
+      "shelf.relatedProducts#first",
       "sku-selector",
       "product-assembly-options",
       "flex-layout.row#buy-button",
@@ -126,7 +126,7 @@
       }
     }
   },
-  "shelf.relatedProducts": {
+  "shelf.relatedProducts#first": {
     "blocks": [
       "product-summary.shelf#relatedProducts"
     ],
@@ -134,7 +134,7 @@
       "productList": {
         "itemsPerPage": 7,
         "minItemsPerPage": 2,
-        "scroll": "BY_PAGE",
+        "scroll": "ONE_BY_ONE",
         "arrows": true,
         "paginationDotsVisibility": "hidden",
         "titleText": "OUTROS TAMANHOS"

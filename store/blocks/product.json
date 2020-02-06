@@ -132,11 +132,10 @@
     ],
     "props": {
       "productList": {
-        "maxItems": 5,
-        "itemsPerPage": 5,
+        "itemsPerPage": 7,
         "minItemsPerPage": 2,
         "scroll": "BY_PAGE",
-        "arrows": false,
+        "arrows": true,
         "paginationDotsVisibility": "hidden",
         "titleText": "OUTROS TAMANHOS"
       },
@@ -156,6 +155,11 @@
   "shelf.relatedProducts#fourth": {
     "blocks": [
       "product-summary.shelf"
-    ]
+    ],
+    "props": {
+      "productList": {
+        "minItemsPerPage": 1
+      }
+    }
   }
 }

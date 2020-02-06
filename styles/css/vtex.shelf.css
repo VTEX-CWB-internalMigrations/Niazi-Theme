@@ -29,6 +29,19 @@
     padding: 5px;
 }
 
+.arrowRight--sizes{
+    margin-right: -25px;
+}
+
+.arrowLeft--sizes{
+    margin-left: -25px;
+}
+
+.caretIcon--sizes{
+    width: 15px;
+    height: 15px;
+}
+
 .relatedProducts .title{
     display: none;
 }
@@ -59,5 +72,12 @@
 @media only screen and (max-width: 640px) {
     .title{
         font-size: 25px;  
+    }
+    .arrowRight--sizes{
+        margin-right: 0px;
+    }
+    
+    .arrowLeft--sizes{
+        margin-left: 0px;
     }
 }

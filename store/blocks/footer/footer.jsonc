@@ -105,12 +105,19 @@
   },
   "flex-layout.row#footer-securityRow2": {
     "children": [
-      "rich-text#securityImages"
+      "rich-text#securityImages",
+      "rich-text#securityImages2"
     ]
   },
   "rich-text#securityImages": {
     "props": {
-      "text": "oi",
+      "text": "security images here",
+      "blockClass": "encrypt"
+    }
+  },
+  "rich-text#securityImages2": {
+    "props": {
+      "text": "eBit Here",
       "blockClass": "encrypt"
     }
   },

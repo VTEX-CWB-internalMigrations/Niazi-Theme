@@ -5,7 +5,7 @@
     ],
     "props": {
       "context": {
-        "maxItemsPerPage": 15
+        "maxItemsPerPage": 48
       }
     }
   },
@@ -17,7 +17,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 15
+        "maxItemsPerPage": 48
       }
     }
   },
@@ -27,7 +27,7 @@
     ],
     "props": {
       "context": {
-        "maxItemsPerPage": 15
+        "maxItemsPerPage": 48
       }
     }
   },
@@ -37,7 +37,7 @@
     ],
     "props": {
       "context": {
-        "maxItemsPerPage": 15
+        "maxItemsPerPage": 48
       }
     }
   },
@@ -47,7 +47,7 @@
     ],
     "props": {
       "context": {
-        "maxItemsPerPage": 15
+        "maxItemsPerPage": 48
       }
     }
   },

@@ -5,7 +5,8 @@
       "flex-layout.row#institutional-row-2"
     ],
     "props": {
-      "width": "30%"
+      "width": "30%",
+      "blockClass": "institutionalCol"
     }
   },
   "flex-layout.row#institutional-row-1": {

@@ -12,9 +12,60 @@
       "shelf#home3",
       "shelf#home4",
       "rich-text#faqButton",
-      "slider-layout#bottom",
+      //"slider-layout#bottom",
+      "list-context.image-list#brands",
       "newsletter"
     ]
+  },
+  "list-context.image-list#brands": {
+    "children": [
+      "slider-layout#brands"
+    ],
+    "props": {
+      "blockClass": "Brands",
+      "images": [
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/001Brinox.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/001Brinox.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/002Bella.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/002Bella.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/003Dohler.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/003Dohler.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/004Karsten.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/004Karsten.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/005Multiflon.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/005Multiflon.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/006Niazitex.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/006Niazitex.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/07Oxford.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/07Oxford.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/08Santista.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/08Santista.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/09Tramontina.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/09Tramontina.png"
+        },
+        {
+          "image": "https://niazi.vteximg.com.br/arquivos/10Mondial.png",
+          "mobileImage": "https://niazi.vteximg.com.br/arquivos/10Mondial.png"
+        }
+      ]
+    }
   },
   "carousel#home": {
     "props": {
@@ -201,28 +252,74 @@
       }
     }
   },
-  "slider-layout#bottom": {
-    "children": [
-      "rich-text#01",
-      "rich-text#02",
-      "rich-text#03",
-      "rich-text#04",
-      "rich-text#05",
-      "rich-text#06",
-      "rich-text#07",
-      "rich-text#08",
-      "rich-text#09",
-      "rich-text#10"
-    ],
+  "slider-layout#brands": {
     "props": {
-      "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 1,
-        "mobile": 1
-      },
-      "infinite": true
+      "blockClass": "brandsSlider",
+      "infinite": true,
+      "showNavigationArrows": "always"
     }
   },
+  "image#brand1": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/001Brinox.png",
+      "link": "/brinox"
+    }
+  },
+  "image#brand2": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/002Bella.png",
+      "link": "/bella-janela"
+    }
+  },
+  "image#brand3": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/003Dohler.png",
+      "link": "/dohler"
+    }
+  },
+  "image#brand4": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/004Karsten.png",
+      "link": "/karsten"
+    }
+  },
+  "image#brand5": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/005Multiflon.png",
+      "link": "/multiflon"
+    }
+  },
+  "image#brand6": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/006Niazitex.png",
+      "link": "/niazitex"
+    }
+  },
+  "image#brand7": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/07Oxford.png",
+      "link": "/oxford"
+    }
+  },
+  "image#brand8": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/08Santista.png",
+      "link": "/santista"
+    }
+  },
+  "image#brand9": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/09Tramontina.png",
+      "link": "/tramontina"
+    }
+  },
+  "image#brand10": {
+    "props": {
+      "src": "https://niazi.vteximg.com.br/arquivos/10Mondial.png",
+      "link": "/mondial"
+    }
+  },
+  // ////////////////////////////////////////
   "rich-text#01": {
     "props": {
       "text": "[![Brinox](https://niazi.vteximg.com.br/arquivos/001Brinox.png 'Brinox')](http://niazi.myvtex.com.br/)",

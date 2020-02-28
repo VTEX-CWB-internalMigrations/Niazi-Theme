@@ -10,6 +10,11 @@
     height: 155px;
 }
 
+.imageElement--brandsSlider{
+    max-width: 160px ;
+    padding-top: 20px;
+}
+
 @media only screen and (max-width: 640px) {
     .layoutContainer{
         display: none;

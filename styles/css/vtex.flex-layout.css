@@ -54,6 +54,10 @@
     border-radius: 10px;
   }
 
+  .flexColChild--institutionalCol{
+    height: auto !important;
+  }
+
 @media only screen and (max-width: 640px) {
   .flexRow--rowDeals{
     display: none;

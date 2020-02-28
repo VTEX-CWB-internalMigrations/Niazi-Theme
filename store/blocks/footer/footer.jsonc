@@ -41,7 +41,7 @@
   "flex-layout.row#footer-paymentRow": {
     "children": [
       "flex-layout.col#footer-paymentTitle",
-      "accepted-payment-methods"
+      "image#payment-methods"
     ],
     "props": {}
   },
@@ -61,7 +61,7 @@
   },
   "flex-layout.row#footer-paymentTitle2": {
     "children": [
-      "accepted-payment-methods"
+      "image#payment-methods"
     ]
   },
   "rich-text#institutionalPayment": {
@@ -188,7 +188,7 @@
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
-      "accepted-payment-methods",
+      "image#payment-methods",
       "social-networks",
       "rich-text#footer-mobile"
     ],
@@ -197,6 +197,12 @@
       "paddingTop": 4,
       "paddingBottom": 4,
       "rowGap": 4
+    }
+  },
+  "image#payment-methods": {
+    "props": {
+      "src": "",
+      "blockClass": "paymentMethods"
     }
   },
   "flex-layout.row#1-footer-mobile": {

@@ -55,6 +55,12 @@
       "blockClass": "relatedShelf"
     }
   },
+  "product-summary-price": {
+    "props": {
+      "labelSellingPrice": "Por",
+      "labelListPrice": "De"
+    }
+  },
   "product-summary-sku-selector": {
     "props": {
       "visibleVariations": [

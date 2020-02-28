@@ -296,4 +296,9 @@
     width: 215px;
     height: 430px;
   }
+
+  .imageElement--paymentMethods{
+    width: auto;
+    height: auto;
+  }
 }

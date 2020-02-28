@@ -40,15 +40,14 @@
       "paddingRight": 0
     },
     "children": [
-      "product-images",
+      "product-images#One",
       "share#default"
     ]
   },
-  "product-images": {
+  "product-images#One": {
     "props": {
       "thumbnailsOrientation": "vertical",
-      "position": "left",
-      "displayThumbnailsArrow": true
+      "position": "left"
     }
   },
   "flex-layout.col#middle-col": {

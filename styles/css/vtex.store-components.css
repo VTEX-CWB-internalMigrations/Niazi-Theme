@@ -110,13 +110,6 @@
   padding: 10px;
 }
 
-.carouselGaleryThumbs :global(.swiper-slide){
-  width: 20% !important;
-}
-.carouselGaleryThumbs{
-  padding: 0px 35px;
-}
-
 .installmentsPrice{
   max-width: 100%;
 }

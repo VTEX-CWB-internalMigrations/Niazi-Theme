@@ -5,13 +5,14 @@
 
 
 
-.badgeContainer--dimensoes{
+.badgeContainer--largura{
     border: 2px solid #d1d1d1;
     border-radius: 5px;
     text-align: center;
     display: flex;
     justify-content: center;
     max-width: 140px;
+    min-width: 25px;
 }
 
 .imageContainer{

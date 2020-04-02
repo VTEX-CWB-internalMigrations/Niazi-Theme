@@ -61,6 +61,10 @@
     padding-bottom: 10px;
 }
 
+.slide--sizes{
+    min-width: 175px;
+}
+
 @media only screen and (max-width: 640px) {
     .title{
         font-size: 25px;  

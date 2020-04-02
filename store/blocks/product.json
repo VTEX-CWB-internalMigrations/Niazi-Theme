@@ -127,7 +127,7 @@
   },
   "shelf.relatedProducts#first": {
     "blocks": [
-      "product-summary.shelf#relatedProducts"
+      "product-summary.shelf#relatedProducts2"
     ],
     "props": {
       "productList": {

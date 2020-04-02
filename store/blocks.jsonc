@@ -47,7 +47,7 @@
       "product-summary-buy-button"
     ]
   },
-  "product-summary.shelf#relatedProducts": {
+  "product-summary.shelf#relatedProducts2": {
     "children": [
       "product-summary-specification-badges#related"
     ],

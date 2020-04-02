@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     max-width: 140px;
-    min-width: 25px;
+    min-height: 50px;
 }
 
 .imageContainer{

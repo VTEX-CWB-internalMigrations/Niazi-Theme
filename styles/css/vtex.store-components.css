@@ -120,7 +120,6 @@
 
 .skuSelectorNameContainer{
   min-height: 45px;
-  max-height: 92px;
   padding: 4px;
 }
 
@@ -137,10 +136,6 @@
 .skuSelectorItemImageValue{
   width: 25px;
   height: 25px;
-}
-
-.skuSelectorSubcontainer{
-  height: 65px;
 }
 
 .skuSelectorTextContainer{

@@ -93,7 +93,8 @@
     ],
     "props": {
       "preventHorizontalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "search-flex-row"
     }
   },
   "flex-layout.col#filter": {
@@ -111,7 +112,8 @@
       "flex-layout.row#fetchmore"
     ],
     "props": {
-      "width": "grow"
+      "width": "grow",
+      "blockClass": "search-flex-col"
     }
   },
   "flex-layout.row#searchinfo": {
